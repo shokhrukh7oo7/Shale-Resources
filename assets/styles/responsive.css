@@ -8,6 +8,9 @@
   .container {
     padding: 0 50px;
   }
+  .about-description-wrapper .about-description-wrapper-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 992px) {
@@ -22,6 +25,9 @@
   }
   .banner-content-wrapper .banner-content-description-wrapper {
     margin-top: 15px;
+  }
+  .about-description-wrapper .about-description-wrapper-bottom {
+    grid-template-columns: auto;
   }
 }
 
@@ -57,7 +63,6 @@
 }
 
 @media (max-width: 495px) {
-  
 }
 
 @media (max-width: 365px) {
