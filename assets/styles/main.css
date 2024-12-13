@@ -106,9 +106,9 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
 .request-modal {
   position: fixed;
   width: 100%;
-  max-width: 700px;
+  max-width: clamp(300px, 90vw, 650px);
   background-color: var(--white);
-  padding: 25px;
+  padding: clamp(10px, 2vw, 25px);
   border-radius: 16px;
   left: 50%;
   top: 50%;
@@ -118,6 +118,66 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
 .request-modal .request-modal-header {
   display: flex;
   justify-content: end;
+}
+.request-modal .request-modal-body .request-modal-header-content {
+  text-align: center;
+  padding: 10px clamp(5px, 3vw, 37px);
+}
+.request-modal .request-modal-body .request-modal-header-content h1 {
+  color: var(--black);
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: clamp(26px, 4vw, 48px);
+}
+.request-modal .request-modal-body .request-modal-header-content p {
+  color: var(--black);
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: clamp(15px, 1.5vw, 18px);
+}
+.request-modal .request-modal-body .form-wrapper {
+  padding: 10px clamp(5px, 3vw, 37px);
+}
+.request-modal .request-modal-body .form-wrapper label {
+  margin-bottom: 0;
+  color: var(--black);
+  font-weight: 400;
+  font-size: clamp(13px, 1vw, 16px);
+}
+.request-modal .request-modal-body .form-wrapper input {
+  padding: 10px;
+  color: var(--black);
+  font-weight: 400;
+  font-size: clamp(13px, 1vw, 16px);
+}
+.request-modal .request-modal-body .form-wrapper input:focus {
+  box-shadow: 0 0 0 0.05rem var(--blue);
+}
+.request-modal .request-modal-body .form-wrapper textarea {
+  color: var(--black);
+  font-weight: 400;
+  font-size: clamp(13px, 1vw, 16px);
+}
+.request-modal .request-modal-body .form-wrapper textarea:focus {
+  box-shadow: 0 0 0 0.05rem var(--blue);
+}
+.request-modal .request-modal-body .form-wrapper .form-check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.request-modal .request-modal-body .form-wrapper button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 0;
+  padding: 7px clamp(14px, 1.3vw, 20px);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: clamp(14px, 1.3vw, 16px);
+  color: var(--white);
+  background-color: var(--blue);
 }
 /* REQUEST MODAL END */
 
