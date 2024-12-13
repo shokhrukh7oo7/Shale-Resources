@@ -1,19 +1,39 @@
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 55px;
+  }
+}
+
 @media (max-width: 1200px) {
-    
+  .container {
+    padding: 0 50px;
+  }
 }
 
 @media (max-width: 992px) {
-    
+  .container {
+    padding: 0 40px;
+  }
 }
 
 @media (max-width: 768px) {
-    
+  .container {
+    padding: 0 30px;
+  }
+  .banner-content-wrapper .banner-content-description-wrapper {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 576px) {
-    
+  .container {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 480px) {
-    
+}
+
+@media (max-width: 365px) {
+
 }

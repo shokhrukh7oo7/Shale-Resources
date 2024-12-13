@@ -1,42 +1,53 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --blue: #086fb4;
+  --grey: #cccccc;
+  --light-grey: #eeeeee;
+  --grey-bg: #f7f7f7;
+  --green-bg: #ecfdf3;
+  --overlay-bg: #1e1e1e;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  *,
-  *::after,
-  *::before {
-    box-sizing: border-box;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 64px;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  button {
-    cursor: pointer;
-  }
-  
-  ::placeholder {
-    color: unset;
-  }
-  /* Layout css setting end */
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 64px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+::placeholder {
+  color: unset;
+}
+/* Layout css setting end */

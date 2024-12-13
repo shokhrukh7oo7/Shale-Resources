@@ -1,0 +1,103 @@
+/* HEADER START */
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.navbar-toggler {
+  border-color: var(--blue);
+}
+.navbar-toggler .navbar-toggler-icon {
+  filter: invert(35%) sepia(25%) saturate(4114%) hue-rotate(181deg)
+    brightness(85%) contrast(94%);
+}
+header .navbar {
+  padding: 0.7rem 0;
+}
+header .navbar .navbar-collapse .navbar-nav {
+  align-items: center;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: var(--black);
+  font-weight: 400;
+  padding: 0.8rem;
+  font-size: clamp(14px, 1.3vw, 16px);
+}
+header .navbar .navbar-collapse .navbar-nav .request-btn {
+  padding: 7px clamp(14px, 1.3vw, 20px);
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: clamp(14px, 1.3vw, 16px);
+  color: var(--white);
+  background-color: var(--blue);
+}
+/* HEADER END */
+
+/* ================================================================== */
+
+/* MAIN START */
+/* ---------------------- */
+/* banner section start */
+.banner-wrapper img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 600px;
+}
+/* banner section end */
+/* ---------------------- */
+.banner-content-wrapper {
+  padding: clamp(20px, 6vw, 80px) 0;
+}
+.banner-content-wrapper .banner-content-header {
+  font-weight: 700;
+  margin: 0;
+  color: var(--black);
+  font-size: clamp(26px, 4vw, 56px);
+}
+
+.banner-content-wrapper
+  .banner-content-description-wrapper
+  .banner-content-description {
+  font-weight: 400;
+  margin: 0;
+  color: var(--black);
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+.banner-content-wrapper
+  .banner-content-description-wrapper
+  .banner-content-btn-wrapper {
+  margin-top: clamp(15px, 2vw, 30px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: normal;
+  align-items: center;
+  gap: clamp(10px, 1.5vw, 20px);
+}
+.banner-content-wrapper
+  .banner-content-description-wrapper
+  .banner-content-btn-wrapper
+  .read-more {
+  padding: 7px clamp(14px, 1.3vw, 20px);
+  border-radius: 8px;
+  background-color: var(--blue);
+}
+.banner-content-wrapper
+  .banner-content-description-wrapper
+  .banner-content-btn-wrapper
+  .read-more
+  a {
+  font-weight: 400;
+  color: var(--white);
+  font-size: clamp(14px, 1.3vw, 16px);
+}
+.banner-content-wrapper
+  .banner-content-description-wrapper
+  .banner-content-btn-wrapper
+  .request-btn {
+  padding: 8.5px clamp(14px, 1.3vw, 20px);
+  border-radius: 8px;
+  font-weight: 400;
+  border-color: var(--grey);
+  color: var(--black);
+  font-size: clamp(14px, 1.3vw, 16px);
+}
+/* MAIN END */

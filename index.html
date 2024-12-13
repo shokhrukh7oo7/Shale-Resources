@@ -21,19 +21,118 @@
     <!-- LAYOUT CUSTOM CSS -->
     <link rel="stylesheet" href="./assets/styles/layout.css" />
 
-    <!-- RESPONSIVE CUSTOM CSS -->
-    <link rel="stylesheet" href="./assets/styles/responsive.css" />
-
+    
     <!-- MAIN SUCTOM CSS -->
     <link rel="stylesheet" href="./assets/styles/main.css" />
+    <!-- RESPONSIVE CUSTOM CSS -->
+    <link rel="stylesheet" href="./assets/styles/responsive.css" />
   </head>
   <body>
-    
+    <!-- HEADER START -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-xl">
+          <a class="navbar-brand" href="/">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/code">Обзор проекта</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pricing">Технологии</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">Устойчивое развитие</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq">Инвесторы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/faq">Контакты</a>
+              </li>
+              <button class="btn request-btn" id="request-btn">
+                Оставить заявку
+              </button>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- MAIN START -->
+    <main>
+      <!-- BANNER START -->
+      <section>
+        <div class="banner-wrapper">
+          <img src="./assets/images/home/banner.png" alt="image" />
+        </div>
+      </section>
+      <!-- BANNER END -->
+
+      <!-- BANNER CONTENT START -->
+      <section>
+        <div class="container">
+          <div class="banner-content-wrapper">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <h1 class="banner-content-header">
+                  ‹‹Энергия будущего: новая эра устойчивого топлива из горючих
+                  сланцев››
+                </h1>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="banner-content-description-wrapper">
+                  <p class="banner-content-description">
+                    На переднем крае инноваций в области сланца, мы обеспечиваем
+                    непревзойденное качество и производительность. Узнайте, как
+                    наша приверженность совершенству выделяет нас в отрасли.
+                  </p>
+
+                  <div class="banner-content-btn-wrapper">
+                    <button class="btn read-more">
+                        <a href="./assets/pages/about.html">Узнать больше</a>
+                    </button>
+                    <button class="btn request-btn" id="request-btn">
+                        Оставить заявку
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BANNER CONTENT END -->
+    </main>
+    <!-- MAIN END -->
+
     <!-- BOOTSTRAP CUSTOM JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
