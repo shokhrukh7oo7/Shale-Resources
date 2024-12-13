@@ -194,6 +194,5 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   width: 100%;
   z-index: 5;
   background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(8px);
 }
 /* OVERLAY END */
