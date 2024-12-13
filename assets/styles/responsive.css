@@ -29,11 +29,36 @@
   .container {
     padding: 0 20px;
   }
+  .banner-content-wrapper .banner-content-header {
+    text-align: center;
+  }
+  .banner-content-wrapper
+    .banner-content-description-wrapper
+    .banner-content-description {
+    text-align: center;
+  }
+  .banner-content-wrapper
+    .banner-content-description-wrapper
+    .banner-content-btn-wrapper {
+    justify-content: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .header {
+    text-align: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .description {
+    text-align: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .extra-wrapper {
+    justify-content: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .extra-wrapper .extra-lr {
+    align-items: center;
+  }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 495px) {
+  
 }
 
 @media (max-width: 365px) {
-
 }
