@@ -101,3 +101,39 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   font-size: clamp(14px, 1.3vw, 16px);
 }
 /* MAIN END */
+
+/* REQUEST MODAL START */
+.request-modal {
+  position: fixed;
+  width: 100%;
+  max-width: 700px;
+  background-color: var(--white);
+  padding: 25px;
+  border-radius: 16px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+.request-modal .request-modal-header {
+  display: flex;
+  justify-content: end;
+}
+/* REQUEST MODAL END */
+
+/* OVERLAY START */
+.hidden {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 5;
+  background: rgba(0, 0, 0, 0.75);
+  backdrop-filter: blur(8px);
+}
+/* OVERLAY END */
