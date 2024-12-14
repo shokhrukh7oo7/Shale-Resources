@@ -40,6 +40,13 @@
   .extra-section-wrapper .extra-section-left-wrapper .extra-btn-wrapper {
     justify-content: center;
   }
+  .footer-top-partner-wrapper {
+    flex-direction: column;
+  }
+  .footer-top-partner-wrapper .footer-left-wrapper .partner-header {
+    max-width: 992px;
+    text-align: center;
+}
 }
 
 @media (max-width: 768px) {

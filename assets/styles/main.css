@@ -542,3 +542,37 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
 /* OVERLAY END */
 
 /* ================================================================== */
+
+/* FOOTER START */
+/* footer partner start */
+.footer-top-partner-wrapper {
+  padding-bottom: clamp(20px, 4vw, 56px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.footer-top-partner-wrapper .footer-left-wrapper .partner-header {
+  color: var(--black);
+  font-weight: 700;
+  margin: 0;
+  width: 100%;
+  max-width: 300px;
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+.footer-top-partner-wrapper .footer-right-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.footer-top-partner-wrapper .footer-right-wrapper img {
+  width: 100%;
+  max-width: 130px;
+  height: auto;
+  object-fit: cover;
+}
+/* footer partner end */
+/* FOOTER END */
