@@ -34,6 +34,12 @@
   .percent-container .percent-right-wrapper .percent-btn-wrapper {
     justify-content: center;
   }
+  .extra-section-wrapper .extra-section-left-wrapper {
+    text-align: center;
+  }
+  .extra-section-wrapper .extra-section-left-wrapper .extra-btn-wrapper {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {

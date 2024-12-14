@@ -348,6 +348,7 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
 }
 .news-wrapper .news-card .image img {
   width: 100%;
+  border-radius: 16px;
 }
 .news-wrapper .news-card .news-content {
   padding: clamp(10px, 1.5vw, 20px) 0;
@@ -394,6 +395,50 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   font-size: clamp(14px, 1.3vw, 16px);
 }
 /* news section (home) page end */
+
+/* extra section start */
+.extra-section-wrapper {
+  padding: clamp(20px, 8vw, 96px) 0;
+}
+.extra-section-wrapper .extra-section-left-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.extra-section-wrapper .extra-section-left-wrapper .extra-header {
+  color: var(--black);
+  font-weight: 700;
+  margin: 0;
+  font-size: clamp(24px, 3.5vw, 48px);
+}
+.extra-section-wrapper .extra-section-left-wrapper .extra-description {
+  color: var(--black);
+  font-weight: 400;
+  margin: 0;
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+.extra-section-wrapper .extra-section-left-wrapper .extra-btn-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.extra-section-wrapper
+  .extra-section-left-wrapper
+  .extra-btn-wrapper
+  .request-btn {
+  padding: 8.5px clamp(14px, 1.3vw, 20px);
+  font-weight: 400;
+  color: var(--black);
+  font-size: clamp(14px, 1.3vw, 16px);
+}
+.extra-section-wrapper .image-wrapper img {
+  width: 100%;
+  height: clamp(150px, 50vw, 400px);
+  border-radius: clamp(16px, 3vw, 40px);
+  object-fit: cover;
+}
+/* extra section end */
 
 /* MAIN END */
 
