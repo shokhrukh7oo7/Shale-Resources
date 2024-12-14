@@ -17,6 +17,23 @@
   .container {
     padding: 0 40px;
   }
+  .sustainable-development-wrapper .content-wrapper .header,
+  .description {
+    text-align: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .extra-wrapper {
+    justify-content: center;
+  }
+  .sustainable-development-wrapper .content-wrapper .extra-wrapper .extra-lr {
+    align-items: center;
+  }
+  .percent-container .percent-left-wrapper,
+  .percent-right-wrapper {
+    text-align: center;
+  }
+  .percent-container .percent-right-wrapper .percent-btn-wrapper {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -59,6 +76,13 @@
   }
   .sustainable-development-wrapper .content-wrapper .extra-wrapper .extra-lr {
     align-items: center;
+  }
+  .percent-container .percent-wrapper .percent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
   }
 }
 
