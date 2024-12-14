@@ -574,5 +574,80 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   height: auto;
   object-fit: cover;
 }
+
+.footer-main-section {
+  background-color: var(--black);
+}
+.footer-main-section .footer-main-top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(10px, 1.5vw, 30px);
+  padding: clamp(40px, 6vw, 76px) 0;
+  border-bottom: 1px solid var(--white);
+}
+.footer-main-section .footer-main-top-wrapper .footer-menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.footer-main-section .footer-main-top-wrapper .footer-menu ul li a {
+  color: var(--white);
+  font-weight: 400;
+  margin: 0;
+  font-size: clamp(14px, 1vw, 14px);
+}
+.footer-main-section .footer-main-top-wrapper .footer-menu ul li a:hover {
+  color: var(--blue);
+}
+.footer-main-section .footer-main-top-wrapper .social-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(5px, 1vw, 10px);
+  padding: 2px;
+}
+.footer-main-section .footer-main-top-wrapper .social-link-wrapper img {
+  width: 25px;
+  height: 25px;
+}
+.footer-main-section .footer-main-top-wrapper .social-link-wrapper a:hover img {
+  transform: scale(1.1);
+}
+/* .footer-main-section .footer-main-top-wrapper .social-link-wrapper:hover> :not(:hover) {
+    opacity: 0.8;
+    filter: blur(2px);
+    filter: invert(25%) sepia(37%) saturate(5564%) hue-rotate(186deg) brightness(89%) contrast(105%);
+    } */
+.footer-main-section .footer-main-bottom-wrapper {
+  margin: 0 auto;
+  padding: clamp(10px, 4vw, 40px) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+.footer-main-section .footer-main-bottom-wrapper p {
+  color: var(--light-grey);
+  font-weight: 400;
+  margin: 0;
+  font-size: clamp(14px, 1vw, 14px);
+}
+.footer-main-section .footer-main-bottom-wrapper a {
+  color: var(--light-grey);
+  font-weight: 400;
+  margin: 0;
+  text-decoration: underline;
+  font-size: clamp(14px, 1vw, 14px);
+}
+.footer-main-section .footer-main-bottom-wrapper a:hover {
+  color: var(--blue);
+}
 /* footer partner end */
 /* FOOTER END */

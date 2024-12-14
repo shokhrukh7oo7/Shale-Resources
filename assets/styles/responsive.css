@@ -46,7 +46,14 @@
   .footer-top-partner-wrapper .footer-left-wrapper .partner-header {
     max-width: 992px;
     text-align: center;
-}
+  }
+  .footer-main-section .footer-main-top-wrapper {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-main-section .footer-main-top-wrapper .footer-menu ul {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 768px) {
