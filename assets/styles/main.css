@@ -597,6 +597,7 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   font-size: clamp(15px, 1.5vw, 20px);
   border-left: 2px solid var(--black);
   padding-left: clamp(10px, 1.5vw, 20px);
+  font-style: italic;
 }
 .about-content-wrapper .about-main-content .about-share-wrapper {
   margin: clamp(20px, 3vw, 50px) auto 0;
@@ -691,6 +692,66 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   a:hover {
   color: var(--white);
   background-color: var(--blue);
+}
+.blue-bg {
+  background-color: var(--blue);
+  padding: clamp(20px, 8vw, 96px) 0;
+}
+.our-team-wrapper .our-team-header {
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: clamp(5px, 1.5vw, 20px);
+  font-size: clamp(24px, 3.5vw, 48px);
+}
+.our-team-wrapper .our-team-description {
+  font-weight: 400;
+  color: var(--white);
+  margin: 0;
+  font-size: clamp(16px, 1.5vw, 18px);
+}
+.our-team-wrapper .team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: clamp(40px, 3vw, 50px);
+}
+.our-team-wrapper .team-container .team-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  gap: clamp(10px, 1.5vw, 30px);
+}
+
+.our-team-wrapper .team-container .team-wrapper .team-image img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.our-team-wrapper .team-container .team-wrapper .team-content .fname {
+  font-weight: 500;
+  color: var(--white);
+  margin: 0;
+  font-size: clamp(16px, 1.5vw, 20px);
+}
+.our-team-wrapper .team-container .team-wrapper .team-content .team-job {
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: clamp(10px, 1.5vw, 30px);
+  font-size: clamp(14px, 1.5vw, 18px);
+}
+.our-team-wrapper .team-container .team-wrapper .team-content .team-description {
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: clamp(5px, 1vw, 20px);
+  font-size: clamp(13px, 1vw, 16px);
+}
+.our-team-wrapper .team-container .team-wrapper .team-content .team-social-wrapper {
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    gap: clamp(5px, 1vw, 15px);
 }
 /* ABOUT PAGE END */
 
@@ -799,7 +860,7 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
 /* FOOTER START */
 /* footer partner start */
 .footer-top-partner-wrapper {
-  padding-bottom: clamp(20px, 4vw, 56px);
+  padding: clamp(20px, 4vw, 56px) 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -111,6 +111,21 @@
     align-items: center;
     text-align: center;
   }
+  .our-team-wrapper .our-team-header, .our-team-description {
+    text-align: center;
+  }
+  .our-team-wrapper .team-container .team-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .our-team-wrapper
+    .team-container
+    .team-wrapper
+    .team-content
+    .team-social-wrapper {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 495px) {
