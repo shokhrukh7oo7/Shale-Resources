@@ -836,6 +836,7 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   gap: clamp(10px, 1.5vw, 30px);
   padding: 0;
 }
+
 .overview-wrappeer
   .overview-content-wrapper
   .overview-content-description
@@ -851,6 +852,15 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   color: var(--black);
   margin: 0;
   font-size: clamp(14px, 1vw, 16px);
+}
+.overview-wrappeer
+  .overview-content-wrapper
+  .overview-extra-image
+  img {
+  width: 100%;
+  border-radius: clamp(18px, 3vw, 40px);
+  object-fit: cover;
+  height: clamp(200px, 30vw, 400px);
 }
 .overview-wrappeer .overview-content-wrapper .image-text {
   font-weight: 400;
