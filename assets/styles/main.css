@@ -853,14 +853,34 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   margin: 0;
   font-size: clamp(14px, 1vw, 16px);
 }
-.overview-wrappeer
-  .overview-content-wrapper
-  .overview-extra-image
-  img {
+.overview-wrappeer .overview-content-wrapper .overview-extra-image img {
   width: 100%;
   border-radius: clamp(18px, 3vw, 40px);
   object-fit: cover;
-  height: clamp(200px, 30vw, 400px);
+  height: clamp(200px, 40vw, 400px);
+}
+.overview-wrappeer .overview-content-wrapper .technologies-content-description {
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  font-size: clamp(14px, 1vw, 16px);
+}
+.overview-wrappeer
+  .overview-content-wrapper
+  .technologies-extra-content-description {
+  font-weight: 400;
+  color: var(--black);
+  margin: 0;
+  font-size: clamp(14px, 1vw, 16px);
+}
+.overview-wrappeer
+  .overview-content-wrapper
+  .technologies-extra-content-description
+  span {
+  font-weight: 700;
+  color: var(--black);
+  margin: 0;
+  font-size: clamp(14px, 1vw, 16px);
 }
 .overview-wrappeer .overview-content-wrapper .image-text {
   font-weight: 400;
@@ -869,6 +889,25 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   font-size: clamp(12px, 1vw, 14px);
   padding-left: clamp(10px, 1.5vw, 20px);
   border-left: 2px solid var(--black);
+  text-align: start;
+}
+.overview-wrappeer
+  .overview-content-wrapper
+  .technologies-content-header-title {
+  color: var(--black);
+  font-weight: 700;
+  margin: 0;
+  font-size: clamp(22px, 3vw, 40px);
+}
+.overview-wrappeer .overview-content-wrapper .technologies-description-italic {
+  font-weight: 400;
+  color: var(--black);
+  margin: 0 0 clamp(20px, 2vw, 40px);
+  font-size: clamp(15px, 1.5vw, 20px);
+  border-left: 2px solid var(--black);
+  padding-left: clamp(10px, 1.5vw, 20px);
+  font-style: italic;
+  text-align: start;
 }
 .overview-wrappeer .overview-content-wrapper .overview-content-header-title {
   font-weight: 700;
