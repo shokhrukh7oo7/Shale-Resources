@@ -450,7 +450,8 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  aspect-ratio: 1440 / 490;
+  /* aspect-ratio: 1440 / 490; */
+  aspect-ratio: 1440 / 600;
   height: auto;
   object-fit: cover;
   max-height: 482px;
