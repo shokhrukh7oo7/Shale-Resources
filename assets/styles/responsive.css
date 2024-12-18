@@ -54,6 +54,9 @@
   .footer-main-section .footer-main-top-wrapper .footer-menu ul {
     justify-content: center;
   }
+  .contact-address-wrapper {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 768px) {
@@ -73,6 +76,9 @@
   .sustainable-content-wrapper .content-wrapper .sustainable-item {
     align-items: center;
     text-align: center;
+  }
+  .contact-address-wrapper {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -146,6 +152,15 @@
     .overview-social-wrapper
     .overview-social-tags-wrapper {
     flex-direction: column;
+  }
+  .contact-wrapper .contact-header-wrapper {
+    text-align: center;
+  }
+  .contact-address-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .contact-address-wrapper .address-item {
+    align-items: center;
   }
 }
 
