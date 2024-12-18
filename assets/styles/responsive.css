@@ -66,6 +66,14 @@
   .about-description-wrapper .about-description-wrapper-bottom {
     grid-template-columns: auto;
   }
+  .sustainable-content-wrapper .content-wrapper {
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+  .sustainable-content-wrapper .content-wrapper .sustainable-item {
+    align-items: center;
+    text-align: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -136,6 +144,7 @@
     .overview-social-tags-wrapper {
     flex-direction: column;
   }
+
 }
 
 @media (max-width: 495px) {

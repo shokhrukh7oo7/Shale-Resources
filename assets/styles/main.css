@@ -451,7 +451,7 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   background-repeat: no-repeat;
   background-size: cover;
   /* aspect-ratio: 1440 / 490; */
-  aspect-ratio: 1440 / 600;
+  aspect-ratio: 1440 / 322;
   height: auto;
   object-fit: cover;
   max-height: 482px;
@@ -1065,6 +1065,58 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   color: var(--white);
 }
 /* OVERVIEW PAGE END */
+
+/* ================================================================== */
+
+/* SUSTAINABLE PAGE START */
+.sustainable-content-wrapper {
+  padding: clamp(20px, 8vw, 96px) 0;
+}
+.sustainable-content-wrapper .row {
+    align-items: center;
+}
+.sustainable-content-wrapper .sustainable-image-wrapper img {
+  width: 100%;
+  border-radius: clamp(18px, 3vw, 40px);
+  object-fit: cover;
+  height: clamp(200px, 50vw, 600px);
+}
+.sustainable-content-wrapper .content-wrapper {
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  gap: clamp(10px, 1.5vw, 20px);
+}
+.sustainable-content-wrapper .content-wrapper .sustainable-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: clamp(5px, 1.5vw, 10px);
+}
+.sustainable-content-wrapper .content-wrapper .sustainable-item img {
+  width: clamp(30px, 2.5vw, 50px);
+  height: clamp(30px, 2.5vw, 50px);
+}
+.sustainable-content-wrapper
+  .content-wrapper
+  .sustainable-item
+  .sustainable-content-header {
+  font-weight: 700;
+  color: var(--black);
+  font-size: clamp(18px, 1.5vw, 24px);
+}
+.sustainable-content-wrapper
+  .content-wrapper
+  .sustainable-item
+  .sustainable-content-description {
+  color: var(--black);
+  font-weight: 400;
+  margin: 0;
+  font-size: clamp(13px, 1vw, 16px);
+}
+/* SUSTAINABLE PAGE END */
 
 /* ================================================================== */
 
