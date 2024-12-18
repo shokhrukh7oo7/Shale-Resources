@@ -899,6 +899,24 @@ header .navbar .navbar-collapse .navbar-nav .request-btn {
   margin: 0;
   font-size: clamp(22px, 3vw, 40px);
 }
+.overview-wrappeer .overview-content-wrapper .download-btn {
+  background-color: var(--blue);
+  font-weight: 400;
+  color: var(--white);
+  margin: 0;
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(5px, 0.5vw, 10px);
+  font-size: clamp(14px, 1vw, 16px);
+  padding: clamp(5px, 0.6vw, 10px);
+  border-radius: 8px;
+}
+.overview-wrappeer .overview-content-wrapper .download-btn:hover {
+  background-color: var(--light-blue);
+}
 .overview-wrappeer .overview-content-wrapper .technologies-description-italic {
   font-weight: 400;
   color: var(--black);

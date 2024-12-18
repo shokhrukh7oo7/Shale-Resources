@@ -153,6 +153,9 @@
     .overview-social-tags-wrapper {
     flex-direction: column;
   }
+  .overview-wrappeer .overview-content-wrapper .download-btn {
+    margin: 0 auto;
+  }
   .contact-wrapper .contact-header-wrapper {
     text-align: center;
   }
